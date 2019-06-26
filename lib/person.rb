@@ -57,7 +57,7 @@ class Person
     end
 
     def take_bath
-      self.@hygiene = self.@hygiene + 4
+      self.hygiene = self.hygiene + 4
       #if (@hygiene ) > 6
     #    @hygiene = 10
     #  else
