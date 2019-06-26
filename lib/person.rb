@@ -24,8 +24,8 @@ class Person
       return @hygiene = 0
     end
     return @hygiene = h
-    
-    
+
+
   end
 
   def initialize (name, bank_account = 25,  hygiene = 8)
