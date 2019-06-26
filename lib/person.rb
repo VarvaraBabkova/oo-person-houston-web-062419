@@ -78,7 +78,6 @@ class Person
       when "politics"
         friend.happiness = friend.happiness - 1
         self.happiness = self.happiness - 1
-
         return "blah blah partisan blah lobbyist"
       when "weather"
         exit
