@@ -39,5 +39,7 @@ class Person
   def happy?
     return true if @happiness > 7
   end
-
+  def clean?
+    return true if @hygiene > 7
+  end
 end
