@@ -17,15 +17,15 @@ class Person
   end
 
   def hygiene=(h)
-    if h <= 10 && h >= 0
-      return @hygiene = h
-    end
     if h > 10
-      @hygiene = 10
+      return @hygiene = 10
     end
     if h < 0
-      @hygiene = 0
+      return @hygiene = 0
     end
+    return @hygiene = h
+    
+    
   end
 
   def initialize (name, bank_account = 25,  hygiene = 8)
