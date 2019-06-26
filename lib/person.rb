@@ -8,7 +8,7 @@ class Person
     if h <= 10 && h >= 0
       @happiness = h
     end
-    if h > 10 
+    if h > 10
       @happiness = 10
     end
     if h < 0
