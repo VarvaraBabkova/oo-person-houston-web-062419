@@ -41,9 +41,12 @@ class Person
       return true
     else
       return false
-    end 
+    end
   end
   def clean?
-    return true if @hygiene > 7
-  end
+    if @hygiene > 7
+      return true
+    else
+      return false
+    end   end
 end
