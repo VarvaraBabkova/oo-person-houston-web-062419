@@ -1,8 +1,8 @@
 # your code goes here
 class Person
 
-  attr_reader :name, :happiness
-  attr_accessor :bank_account,  :hygiene
+  attr_reader :name, :happiness, :hygiene
+  attr_accessor :bank_account
 
   def happiness=(h)
     if h <= 10 && h >= 0
@@ -13,6 +13,18 @@ class Person
     end
     if h < 0
       @happiness = 0
+    end
+  end
+
+  def hygiene=(h)
+    if h <= 10 && h >= 0
+      @hygiene = h
+    end
+    if h > 10
+      @hygiene = 10
+    end
+    if h < 0
+      @hygiene = 0
     end
   end
 
