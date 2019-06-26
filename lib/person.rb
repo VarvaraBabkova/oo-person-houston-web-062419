@@ -18,7 +18,7 @@ class Person
 
   def hygiene=(h)
     if h <= 10 && h >= 0
-      @hygiene = h
+      return @hygiene = h
     end
     if h > 10
       @hygiene = 10
