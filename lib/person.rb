@@ -25,7 +25,6 @@ class Person
     end
     return @hygiene = h
 
-
   end
 
   def initialize (name, bank_account = 25,  hygiene = 8)
@@ -58,7 +57,7 @@ class Person
     end
 
     def take_bath
-      if (@hygiene + 4) > 10
+      if @hygiene + 4 > 10
         @hygiene = 10
       else
         @hygiene = @hygiene + 4
