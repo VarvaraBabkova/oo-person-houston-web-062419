@@ -5,7 +5,7 @@ class Person
   attr_accessor :bank_account, :happiness, :hygiene
 
   def happiness=(h)
-    if h <= 10 && h >=0 
+    if h <= 10 && h >=0
       @happiness = h
     end
   end
