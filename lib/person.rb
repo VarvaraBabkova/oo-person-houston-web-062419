@@ -8,6 +8,12 @@ class Person
     if h <= 10 && h >= 0
       @happiness = h
     end
+    if h > 10 
+      @happiness = 10
+    end
+    if h < 0
+      @happiness = 0
+    end
   end
 
   def initialize (name, bank_account = 25,  hygiene = 8)
