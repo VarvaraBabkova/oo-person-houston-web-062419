@@ -36,6 +36,8 @@ class Person
     #end
     @hygiene = hygiene
   end
-
+  def happy?
+    return true if @happiness > 7
+  end
 
 end
