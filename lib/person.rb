@@ -73,7 +73,7 @@ class Person
       return "Hi #{friend.name}! It's #{self.name}. How are you?"
     end
 
-    def start_conversation (person, topic)
+    def start_conversation (friend, topic)
       case topic
       when "politics"
         friend.happiness = friend.happiness - 1
