@@ -13,7 +13,7 @@ class Person
   def initialize (name, bank_account = 25, happiness = 8,  hygiene = 8)
     @name = name
     @bank_account = bank_account
-    if happiness <= 10 && happiness >=0
+    if (happiness <= 10) && (happiness >=0)
       @happiness = happiness
     end
     @hygiene = hygiene
